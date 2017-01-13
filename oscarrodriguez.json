@@ -1,0 +1,67 @@
+{
+      "firstName": "Oscar",
+      "lastName": "Rodriguez",
+      "about": "Lover of spoons, video games and making things with the power of the internet.",
+      "portfolio":"https://oscarrobertrodriguez.github.io/coming-soon-page/",
+      // evidentialDegree Options: "Adv" "Master" "Elite"
+      "evidentialDegree": "Master",
+      "quote": "I don't care if people laugh at me, I'm already laughing at me.",
+      "quoteSource": "Me",
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+      },
+      "photos": [
+        "OscarRodriguez_1.jpg",
+        "OscarRodriguez_2.jpg",
+        "OscarRodriguez_3.jpg",
+        "OscarRodriguez_4.jpg",
+        "OscarRodriguez_5.jpg",
+        "OscarRodriguez_6.jpg",
+        "OscarRodriguez_7.jpg",
+      ],
+      "publishedArticles": [
+        {
+          "tile": "Article Title",
+          "publishedDated": "",
+          "link": "",
+          // "role" for publishedArticles can be "author" or "coauthor"
+
+          "role": "author"
+        }
+      ],
+      "pinnacleProject": {
+        "title": "",
+        "completionDate": "",
+        "problemSolving": "",
+        "humanityImpact": "",
+        "link": ""
+      },
+      "careerPaths": [
+        {
+          // careerPathID Options: "careerPath_1" "careerPath_2" "careerPath_3" "careerPath_3" "careerPath_3E" "careerPath_5E"
+          "careerPathID": "careerPath_3",
+          "careerPathProgress": {
+            "domainKnowledge": 10,
+            "uiDevSkills": 20,
+            "coursesCompleted": [
+              {
+                // For courseID, we will provide a list of all the courses to help you fill this out
+                "courseID": "course_1",
+                "dateCompleted": ""
+              },
+              {
+                "courseID": "course_2",
+                "dateCompleted": ""
+              }
+            ]
+          }
+        },
+        {
+          "careerPathID": "careerPath_4",
+          "careerPathTitle": "Advanced Backend Developer",
+          "careerPathProgress": {}
+        }
+      ]
+    }
